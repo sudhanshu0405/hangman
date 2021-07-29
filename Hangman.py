@@ -1,4 +1,4 @@
-#                                 Welcome to DataFlair Hangman Game:
+#                                 Welcome to Hangman Game:
 
 
 import random
