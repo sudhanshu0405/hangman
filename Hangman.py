@@ -43,6 +43,7 @@ def play_loop():
         main()
     elif play_game == "n":
         print("Thanks For Playing! We expect you back again!")
+        time.sleep(2)
         exit()
 
 # Initializing all the conditions required for the game:
