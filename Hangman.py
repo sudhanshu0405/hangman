@@ -18,6 +18,7 @@ def main():
     global count
     global display
     global word
+    global word1
     global already_guessed
     global length
     global play_game
@@ -25,6 +26,7 @@ def main():
                    ,"plants"]
     word = random.choice(words_to_guess)
     length = len(word)
+    word1=word
     count = 0
     display = '_' * length
     already_guessed = []
@@ -130,7 +132,7 @@ def hangman():
                   "  |    / \ \n"
                   "__|__\n")
             print("Wrong guess. You are hanged!!!\n")
-            print("The word was:",already_guessed,word)
+            print("The word was:",word1)
             play_loop()
 
     if word == '_' * length:
